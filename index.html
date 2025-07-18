@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="assets/images/iaaqhe-logo-3.png" type="image/x-icon" />
+  <title>DATA SHEET - Range of Technology Available</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <div class="Logo">
+        <a href="www.vibeservices.org">
+          <img src="assets/images/IAAHE-Logo-1.png" alt="Logo" id="logo" />
+        </a>
+      </div>
+      <div id="header-text" class="header-text">
+        <p>International Association for advancing higher education</p>
+      </div>
+    </div>
+  </header>
+  <div class="hero-section">
+    <div class="hero-bg">
+      <img src="assets/images/pre-banner.jpg" alt="" />
+      <div class="hero-text">
+        <p>IAAHE Data Sheet</p>
+        <p>❖ ❖ ❖ ❖ ❖ ❖ ❖ ❖ ❖ ❖ ❖ ❖ ❖</p>
+        <p>Range of Technology Available</p>
+      </div>
+    </div>
+  </div>
+  <div class="form-container" id="data-sheet">
+
+    <div class="form-header">
+      <img src="assets/images/iaaqhe-logo-3.png" height="60px" alt="" />
+      <h2>IAAHE Data Sheet</h2>
+    </div> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <form id="form" action=""></form>
+    <div class="form-content-container">
+      <div class="form-headings">
+        <div class="first-content">Range of Technology Available</div>
+        <div class="second-content">Institutional Information</div>
+      </div>
+      <div class="data-input-component">
+        <div class="data-name">Name of the Institution</div>
+        <div class="data-value">
+          <input type="text" placeholder="Enter the Name of the Institution" required />
+        </div>
+      </div>
+      <div class="data-input-component light-blue">
+        <div class="data-name">City</div>
+        <div class="data-value">
+          <input type="text" placeholder="Enter the Name of your City" required class="light-blue" />
+        </div>
+      </div>
+      <div class="data-input-component">
+        <div class="data-name">State / Province / Prefecture:</div>
+        <div class="data-value">
+          <input type="text" placeholder="Eg: Karnataka" required />
+        </div>
+      </div>
+      <div class="data-input-component light-blue">
+        <div class="data-name">Country</div>
+        <div class="data-value">
+          <input type="text" placeholder="Eg: India" required class="light-blue" />
+        </div>
+      </div>
+      <div class="data-title">
+        <p>Institutional Characteristics:</p>
+      </div>
+      <div class="data-input-component">
+        <div class="data-right light-blue">
+          <div class="data-name">&bull; Type of Institution:</div>
+          <div class="data-value-checkbox checkbox-group first-check">
+            <label>
+              <input type="checkbox" name="public" value="yes" />
+              <p>Public</p>
+            </label>
+            <label>
+              <input type="checkbox" name="PrivateNotForProfit" value="yes" />
+              <p>Private Not For Profit</p>
+            </label>
+            <label>
+              <input type="checkbox" name="PrivateForProfit" value="yes" />
+              <p>Private For Profit</p>
+            </label>
+          </div>
+        </div>
+        <div class="details-btn light-blue">
+          <button type="button" id="details-btn1" onclick="toggleExpansion1()">
+            Details
+          </button>
+        </div>
+      </div>
+
+      <div class="details-expansion" id="details-expansion1">
+        <div class="details-expansion-heading">
+          <p>Classification by Type of Institution</p>
+          <img id="close-icon" src="assets/images/close-icon-2.png" alt="" height="25px" />
+        </div>
+        <div class="term">Public Higher Education Institutions (HEIs)</div>
+        <div class="definition">
+          HEIs that that are funded mainly by state, provincial,
+          prefectural, or national governments
+        </div>
+        <div class="term">
+          Private Not-for-Profit Higher Education Institutions (HEIs)
+        </div>
+        <div class="definition">
+          HEIs that operate as private nonprofit educational organizations
+          and rely more heavily on student tuition fees, alumni donations,
+          and endowments to fund their academic programs
+        </div>
+        <div class="term">
+          Private For-Profit Higher Education Institutions (HEIs)
+        </div>
+        <div class="definition">
+          HEIs that operate as private for-profit businesses and rely
+          principally on student tuition fees in order to sustain operations
+        </div>
+        <div class="details-expansion-conclude">
+          <p>// Classification by Type of Institution</p>
+          <div class="close-boxes">
+            <button type="button">details</button>
+            <button type="button" id="close-btn1">close</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="data-input-component">
+        <div class="data-right">
+          <div class="data-name">&bull; Enrollment Size:</div>
+          <div class="data-value-checkbox checkbox-group second-check">
+            <label>
+              <input type="checkbox" name="small" value="yes" />
+              <p>Small</p>
+            </label>
+            <label>
+              <input type="checkbox" name="medium" value="yes" />
+              <p>Medium Size</p>
+            </label>
+            <label>
+              <input type="checkbox" name="large" value="yes" />
+              <p>Large</p>
+            </label>
+          </div>
+        </div>
+        <div class="details-btn">
+          <button type="button" id="details-btn2" onclick="toggleExpansion2()">
+            Details
+          </button>
+        </div>
+      </div>
+
+      <div class="details-expansion" id="details-expansion2">
+        <div class="details-expansion-heading">
+          <p>Classification by Enrollment Size</p>
+          <img id="close-icon2" src="assets/images/close-icon-2.png" alt="" height="25px" />
+        </div>
+        <div class="term">Small Institutions</div>
+        <div class="definition">
+          Institutions with a full-time equivalent (FTE) enrollment of fewer
+          than 3000 degree-seeking / diploma-seeking students
+        </div>
+        <div class="term">Medium-Size Institutions</div>
+        <div class="definition">
+          Institutions with a full-time equivalent (FTE) enrollment of
+          3000-9999 degree-seeking / diploma-seeking students
+        </div>
+        <div class="term">Large Institutions</div>
+        <div class="definition">
+          Institutions with a full-time equivalent (FTE) enrollment of
+          10,000 or more degree-seeking / diploma-seeking students
+        </div>
+        <div class="details-expansion-conclude">
+          <p>// Classification by Type of Institution</p>
+          <div class="close-boxes">
+            <button type="button">details</button>
+            <button type="button" id="close-btn2">close</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="data-input-component">
+        <div class="data-right light-blue">
+          <div class="data-name">&bull; Educational Orientation:</div>
+          <div class="data-value-checkbox checkbox-group third-check">
+            <label>
+              <input type="checkbox" name="teachingOriented" value="yes" />
+              <p>Teaching Oriented</p>
+            </label>
+            <label>
+              <input type="checkbox" name="PrivateNotForProfit" value="yes" />
+              <p>Research Oriented</p>
+            </label>
+          </div>
+        </div>
+        <div class="details-btn light-blue">
+          <button type="button" id="details-btn3" onclick="toggleExpansion3()">
+            Details
+          </button>
+        </div>
+      </div>
+
+      <div class="details-expansion" id="details-expansion3">
+        <div class="details-expansion-heading">
+          <p>Classification by Educational Orientation</p>
+          <img id="close-icon3" src="assets/images/close-icon-2.png" alt="" height="25px" />
+        </div>
+        <div class="term">Teaching-Oriented Institutions</div>
+        <div class="definition">
+          Institutions for which: • the number of teaching faculty* comprise
+          more than 50% of the total number of faculty members – or – •
+          their statements of mission, vision, goals, objectives, and / or
+          identity emphasize teaching excellence, student-centeredness,
+          student success, and / or undergraduate education
+        </div>
+        <div class="term">Research-Oriented Institutions</div>
+        <div class="definition">
+          Institutions for which: • the number of research faculty* comprise
+          50% or more of the total number of faculty members – or – • their
+          statements of mission, vision, goals, objectives, and / or
+          identity emphasize research, scholarly publication, knowledge
+          creation, thought leadership, and / or graduate education
+        </div>
+        <div class="details-expansion-heading">
+          <p>Faculty Types *</p>
+        </div>
+        <div class="definition">
+          • Teaching Faculty: Faculty members for whom teaching is more
+          heavily weighted than research, scholarly publication, and other
+          professional expectations in (a) faculty evaluations, (b) tenure
+          or promotion decisions, and / or (c) contractual work duties and
+          responsibilities
+        </div>
+        <div class="definition">
+          • Research Faculty: Faculty members for whom research and
+          scholarly publication are more heavily weighted than teaching and
+          other professional expectations in (a) faculty evaluations, (b)
+          tenure or promotion decisions, and / or (c) contractual work
+          duties and responsibilities
+        </div>
+        <div class="details-expansion-conclude">
+          <p>// End of Classification by Educational Orientation</p>
+          <div class="close-boxes">
+            <button type="button">details</button>
+            <button type="button" id="close-btn3">close</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="data-input-component">
+        <div class="data-right">
+          <div class="data-name">&bull; Program Range:</div>
+          <div class="data-value-checkbox checkbox-group fourth-check">
+            <label>
+              <input type="checkbox" name="broadScope" value="yes" />
+              <p>Broad Scope</p>
+            </label>
+            <label>
+              <input type="checkbox" name="PrivateNotForProfit" value="yes" />
+              <p>Limited Scope</p>
+            </label>
+          </div>
+        </div>
+        <div class="details-btn">
+          <button type="button" id="details-btn4" onclick="toggleExpansion4()">
+            Details
+          </button>
+        </div>
+      </div>
+
+      <div class="details-expansion" id="details-expansion4">
+        <div class="details-expansion-heading">
+          <p>Classification by Program Range</p>
+          <img id="close-icon4" src="assets/images/close-icon-2.png" alt="" height="25px" />
+        </div>
+        <div class="term">Limited Scope Institutions</div>
+        <div class="definition">
+          Institutions that: • offer at least 50% of their degrees /
+          diplomas in just one program disciplinary area (PDA)* – or – •
+          offer degrees / diplomas in no more than 5 PDA* fields
+        </div>
+        <div class="term">Broad Scope Institutions</div>
+        <div class="definition">
+          Institutions: • for which the degrees / diplomas offered in any
+          one program disciplinary area* comprise less than 50% of the total
+          number of degrees / diplomas offered – and – • that offer degrees
+          / diplomas in more than 5 PDA* fields
+        </div>
+        <div class="details-expansion-heading">
+          <p>Program Disciplinary Areas (PDA) *</p>
+        </div>
+        <div class="definition">
+          • Agricultural / Animal / Plant / Veterinary Sciences and Related
+          Fields
+        </div>
+        <div class="definition light-blue">
+          • Architecture and Related Programs
+        </div>
+        <div class="definition">• Business / Commerce</div>
+        <div class="definition light-blue">
+          • Communication / Journalism / and Related Programs
+        </div>
+        <div class="definition">
+          • Criminal Justice / Law Enforcement / Protective Services
+        </div>
+        <div class="definition light-blue">• Education</div>
+        <div class="definition">• Environmental Sciences</div>
+        <div class="definition light-blue">
+          • Family / Consumer / Human Sciences
+        </div>
+        <div class="definition">
+          • Health Professions and Related Programs
+        </div>
+        <div class="definition light-blue">
+          • Humanities<br />
+          ▸ Area / Cultural / Ethnic Studies<br />
+          ▸ Gender Studies<br />
+          ▸ History<br />
+          ▸ Languages / Literature / Linguistics<br />
+          ▸ Philosophy<br />
+          ▸ Theology / Religious Studies
+        </div>
+        <div class="definition">• Law / Legal Studies</div>
+        <div class="definition light-blue">
+          • Leisure / Recreational / Culinary / Entertainment Programs
+        </div>
+        <div class="definition">• Library Science</div>
+        <div class="definition light-blue">• Military Sciences</div>
+        <div class="definition">
+          • Multidisciplinary / Interdisciplinary Studies
+        </div>
+        <div class="definition light-blue">
+          • Public Administration / Social Services
+        </div>
+        <div class="definition">• Social Sciences</div>
+        <div class="definition light-blue">
+          • STEM Programs<br />
+          ▸ Sciences (Life and Physical Sciences)<br />
+          ▸ Technology<br />
+          ▸ Engineering<br />
+          ▸ Mathematics (including Statistics)
+        </div>
+        <div class="definition">• Transportation / Logistics</div>
+        <div class="definition light-blue">• Visual / Performing Arts</div>
+        <div class="definition">
+          • Vocational / Trade / Career / Technical Education Programs
+        </div>
+        <div class="details-expansion-special">
+          <p>
+            * Program Disciplinary Areas (PDA) are based on The
+            Classification of Instructional Programs / National Center for
+            Education Statistics / U.S. Department of Education
+          </p>
+        </div>
+
+        <div class="details-expansion-conclude">
+          <p>// End of Classification by Program Range</p>
+          <div class="close-boxes">
+            <button type="button">details</button>
+            <button type="button" id="close-btn4">close</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="data-input-component light-blue">
+        <div class="data-right">
+          <div class="data-name">&bull; Degree / Diploma Level:</div>
+          <div class="data-value-checkbox checkbox-group fifth-check">
+            <label>
+              <input type="checkbox" name="graduate" value="yes" />
+              <p>Only Graduate</p>
+            </label>
+            <label>
+              <input type="checkbox" name="PrivateNotForProfit" value="yes" />
+              <p>Only Undergraduate</p>
+            </label>
+            <label>
+              <input type="checkbox" name="PrivateForProfit" value="yes" />
+              <p>Both Graduate / Undergraduate</p>
+            </label>
+          </div>
+        </div>
+        <div class="details-btn light-blue">
+          <button type="button" id="details-btn5" onclick="toggleExpansion5()">
+            Details
+          </button>
+        </div>
+      </div>
+
+      <div class="details-expansion" id="details-expansion5">
+        <div class="details-expansion-heading">
+          <p>Classification by Degree / Diploma Level</p>
+          <img id="close-icon5" src="assets/images/close-icon-2.png" alt="" height="25px" />
+        </div>
+        <div class="definition light-blue">
+          Institutions with Exclusively Short-Cycle Programs at the
+          Undergraduate Level
+        </div>
+        <div class="definition">
+          Institutions that offer undergraduate degrees / diplomas in
+          programs exclusively at ISCED-Level 5 *
+        </div>
+        <div class="definition light-blue">
+          Institutions with Predominantly Short-Cycle Programs at the
+          Undergraduate Level
+        </div>
+        <div class="definition">
+          Institutions that: • offer undergraduate degrees / diplomas in
+          programs at both ISCED-Level 5 and ISCED-Level 6 * – and – • offer
+          51-99% of their undergraduate degrees / diplomas in programs at
+          ISCED-Level 5 *
+        </div>
+        <div class="definition light-blue">
+          Institutions with Exclusively Baccalaureate Programs at the
+          Undergraduate Level
+        </div>
+        <div class="definition">
+          Institutions that offer undergraduate degrees / diplomas in
+          programs exclusively at ISCED-Level 6 *
+        </div>
+        <div class="definition light-blue">
+          Institutions with Predominantly Baccalaureate Programs at the
+          Undergraduate Level
+        </div>
+        <div class="definition">
+          Institutions that: • offer undergraduate degrees / diplomas in
+          programs at both ISCED-Level 5 and ISCED-Level 6 * – and – • offer
+          50-99% of their undergraduate degrees / diplomas in programs at
+          ISCED-Level 6 *
+        </div>
+        <div class="definition light-blue">
+          Institutions with Exclusively Master’s Programs at the Graduate
+          Level
+        </div>
+        <div class="definition">
+          Institutions that offer graduate degrees / diplomas in programs
+          exclusively at ISCED-Level 7 *
+        </div>
+        <div class="definition light-blue">
+          Institutions with Predominantly Master’s Programs at the Graduate
+          Level
+        </div>
+        <div class="definition">
+          Institutions that: • offer graduate degrees / diplomas in programs
+          at both ISCED-Level 7 and ISCED-Level 8 * – and – • offer 51-99%
+          of their graduate degrees / diplomas in programs at ISCED-Level 7
+          *
+        </div>
+        <div class="definition light-blue">
+          Institutions with Exclusively Doctoral Programs at the Graduate
+          Level
+        </div>
+        <div class="definition">
+          Institutions that offer graduate degrees / diplomas in programs
+          exclusively at ISCED-Level 8 *
+        </div>
+        <div class="definition light-blue">
+          Institutions with Predominantly Doctoral Programs at the Graduate
+          Level
+        </div>
+        <div class="definition">
+          Institutions that: • offer graduate degrees / diplomas in programs
+          at both ISCED-Level 7 and ISCED-Level 8 * – and – • offer 50-99%
+          of their graduate degrees / diplomas in programs at ISCED-Level 8
+          *
+        </div>
+        <div class="details-expansion-heading">
+          <p>ISCED Categories *</p>
+        </div>
+        <div class="definition">
+          • ISCED-Level 5: Short-Cycle Tertiary Education Programs (usually
+          1-year or 2-year undergraduate programs)
+        </div>
+        <div class="definition light-blue">
+          • ISCED-Level 6: Bachelor’s or Equivalent Programs
+        </div>
+        <div class="definition">
+          • ISCED-Level 7: Master’s or Equivalent Programs
+        </div>
+        <div class="definition light-blue">
+          • ISCED-Level 8: Doctoral or Equivalent Programs
+        </div>
+        <div class="details-expansion-special">
+          <p>
+            * The International Standard Classification of Education (ISCED)
+            is a comprehensive framework developed by UNESCO for
+            categorizing education programs and qualifications according to
+            a uniform and internationally-accepted set of criteria. Its
+            purpose is to facilitate cross-national comparisons of education
+            systems and statistics.
+          </p>
+        </div>
+
+        <div class="details-expansion-conclude">
+          <p>// End of Classification by Degree / Diploma Level</p>
+          <div class="close-boxes">
+            <button type="button">details</button>
+            <button type="button" id="close-btn5">close</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="data-title">
+        <p>Date of Submission:</p>
+      </div>
+      <div class="data-input-component date-of-submission">
+        <div class="data-name date-label">Date of Submission</div>
+        <div class="data-value date-value">
+          <input type="text" placeholder="Enter Date of Submission" required />
+        </div>
+      </div>
+      <div class="data-title-last">
+        <p>// End of Institutional Information</p>
+      </div>
+      <div class="data-title-sct">
+        <p>Range of Technologies</p>
+      </div>
+      <div class="data-title-last-box">
+        <div class="last-text">
+          <p>
+            Do your faculty incorporate Range of Technologies into their courses / modules (i.e., do they employ
+            pedagogical methods that (a) shift the focus of instruction from
+            the teacher to the student and (b) require students to be active
+            participants in their own learning)?
+          </p>
+          <button type="button" id="examples-btn" onclick="toggleExpansionExamples()">
+            Examples
+          </button>
+        </div>
+        <div class="bool-box">
+          <label>
+            <input type="checkbox" name="yes" value="yes" />
+            <p>Yes</p>
+          </label>
+          <label>
+            <input type="checkbox" name="no" value="yes" />
+            <p>No</p>
+          </label>
+        </div>
+      </div>
+
+      <div class="yes-container">
+        <div class="met-1">Please complete the data sheets below.</div>
+        <div class="met-2" id="primaryDS">Primary data sheet</div>
+        <div class="met-3">Metric 1</div>
+        <div class="met-4">
+          Range of Technologies Available //Tick
+          checkbox if the listed method is employed by faculty
+        </div>
+        <div class="met-container light-blue">
+          <div class="content">&bull; Learning management systems </div>
+          <div class="checkboxing">
+            <input type="checkbox" name="Learningmanagementsystems" id="Learningmanagementsystems" class="cb" />
+          </div>
+        </div>
+        <div class="met-container">
+          <div class="content">&bull; Artificial intelligence</div>
+          <div class="checkboxing">
+            <input type="checkbox" name="Artificialintelligence" id="Artificialintelligence" class="cb" />
+          </div>
+        </div>
+        <div class="met-container light-blue">
+          <div class="content">&bull; Interactive white boards </div>
+          <div class="checkboxing">
+            <input type="checkbox" name="Interactivewhiteboards" id="Interactivewhiteboards" class="cb" />
+          </div>
+        </div>
+        <div class="met-container">
+          <div class="content">&bull; Digital textbooks </div>
+          <div class="checkboxing">
+            <input type="checkbox" name="Digitaltextbooks" id="Digitaltextbooks" class="cb" />
+          </div>
+        </div>
+        <div class="met-container light-blue">
+          <div class="content">&bull; Online assessment platforms</div>
+          <div class="checkboxing">
+            <input type="checkbox" name="Onlineassessmentplatforms" id="Onlineassessmentplatforms" class="cb" />
+          </div>
+        </div>
+        <div class="met-container">
+          <div class="content">&bull; Virtual classrooms</div>
+          <div class="checkboxing">
+            <input type="checkbox" name="Virtualclassrooms" id="Virtualclassrooms" class="cb" />
+          </div>
+        </div>
+        <div class="met-container light-blue">
+          <div class="content">&bull; Personalized learning platforms</div>
+          <div class="checkboxing">
+            <input type="checkbox" name="Personalizedlearningplatforms" id="Personalizedlearningplatforms" class="cb" />
+          </div>
+        </div>
+        <div class="met-container">
+          <div class="content">&bull; Educational games and simulations</div>
+          <div class="checkboxing">
+            <input type="checkbox" name="Educationalgamesandsimulations" id="Educationalgamesandsimulations"
+              class="cb" />
+          </div>
+        </div>
+        <div class="met-container light-blue">
+          <div class="content">&bull; Augmented and virtual reality</div>
+          <div class="checkboxing">
+            <input type="checkbox" name="Augmentedandvirtualreality" id="Augmentedandvirtualreality" class="cb" />
+          </div>
+        </div>
+        <div class="met-container">
+          <div class="content">&bull; Cloud computing </div>
+          <div class="checkboxing">
+            <input type="checkbox" name="Cloudcomputing" id="Cloudcomputing" class="cb" />
+          </div>
+        </div>
+        <div class="met-container light-blue">
+          <div class="content">&bull; Data analytics platforms</div>
+          <div class="checkboxing">
+            <input type="checkbox" name="Dataanalyticsplatforms" id="Dataanalyticsplatforms" class="cb" />
+          </div>
+        </div>
+        <div class="met-container">
+          <div class="content">&bull; Other technologies </div>
+          <div class="checkboxing">
+            <input type="checkbox" name="Othertechnologies" id="Othertechnologies" class="cb" />
+          </div>
+        </div>
+        <div class="Metric2-1">Metric 2</div>
+        <div class="Metric2-2">
+          Percentage of class sections taught by faculty that incorporate Range of Technologies
+          into their courses / modules:
+        </div>
+        <div class="Primary">
+          <p>// End of primary Data Sheet</p>
+          <div class="but">
+            <button type="button" onclick="scrollToTop()">Top of data sheet</button>
+            <button type="button" onclick="scrollToprimary()">Primary data sheet</button>
+          </div>
+        </div>
+        <div class="last">Supplemental data sheet</div>
+      </div>
+
+    </div>
+
+    <div class="examples-expansion" id="examples-expansion">
+      <div class="details-expansion-heading">
+        <p>Examples</p>
+        <img id="close-icon-examples" src="assets/images/close-icon-2.png" alt="" height="25px" />
+      </div>
+      <div class="definition">
+        • Learning Management Systems (LMS): centralized platforms designed to facilitate the planning, delivery, and
+        evaluation of educational content; LMS are used to (a) streamline teaching and learning processes across
+        physical or virtual classrooms and (b) enhance learner engagement, progress tracking, and content accessibility;
+        they require instructors and learners to interact digitally through assignments, discussions, and assessments,
+        thereby improving digital literacy, time management, and self-paced learning.
+      </div>
+      <div class="term">
+        • Artificial Intelligence (AI): the simulation of human intelligence processes by machines, especially computer
+        systems, for the purpose of (a) enabling systems to perform tasks such as learning, reasoning, problem-solving,
+        and decision-making, and (b) improving efficiency, accuracy, and automation across various domains; AI
+        applications require users to interact with intelligent algorithms and data-driven models, fostering analytical
+        thinking, innovation, and adaptability to emerging technologies.
+
+      </div>
+      <div class="definition">
+        • Interactive Whiteboards (IWBs): touch-sensitive digital display boards that allow users to interact with
+        content using a pen, finger, or stylus for the purpose of (a) enhancing classroom engagement through dynamic
+        visual presentations and (b) facilitating collaborative learning and real-time feedback; IWBs require students
+        and teachers to engage with multimedia resources, encouraging active participation, creativity, and improved
+        understanding of complex concepts.
+
+      </div>
+      <div class="term">
+        • Digital Textbooks: electronic versions of traditional textbooks accessible on digital devices for the purpose
+        of (a) providing interactive, multimedia-rich learning experiences and (b) ensuring easy access to up-to-date
+        educational content anytime, anywhere; digital textbooks require learners to navigate hyperlinks, videos, and
+        interactive assessments, promoting self-directed learning, technological proficiency, and deeper subject
+        comprehension.
+      </div>
+      <div class="definition">
+        • Online Assessment Platforms: web-based tools used to create, deliver, and evaluate tests and quizzes for the
+        purpose of (a) measuring student learning outcomes efficiently and (b) providing instant feedback and analytics
+        to improve teaching strategies; these platforms require learners to complete assessments in a digital
+        environment, enhancing time management, digital skills, and academic accountability.
+      </div>
+      <div class="term">
+        • Virtual Classrooms: online learning environments that enable real-time interaction between teachers and
+        students through video conferencing, chat, and shared digital resources for the purpose of (a) replicating
+        traditional classroom experiences remotely and (b) promoting flexible, location-independent education; virtual
+        classrooms require active participation through digital tools, fostering communication skills, self-discipline,
+        and adaptability to remote learning.
+      </div>
+      <div class="definition">
+        • Personalized Learning Platforms: adaptive educational systems that tailor content, pace, and learning paths to
+        individual student needs for the purpose of (a) maximizing student engagement and understanding and (b)
+        addressing diverse learning styles and abilities; these platforms require students to interact with customized
+        resources and feedback, enhancing self-paced learning, motivation, and academic performance.
+      </div>
+      <div class="term">
+        • Educational Games and Simulations: interactive digital tools designed to teach concepts through engaging,
+        game-like experiences for the purpose of (a) enhancing learning through active participation and (b) developing
+        problem-solving, critical thinking, and decision-making skills; they require students to apply knowledge in
+        simulated real-world or imaginative scenarios, promoting deeper understanding, motivation, and retention of
+        content.
+      </div>
+      <div class="definition">
+        • Augmented and Virtual Reality (AR/VR): immersive technologies that overlay digital content onto the real world
+        (AR) or create entirely simulated environments (VR) for the purpose of (a) enhancing experiential learning and
+        (b) enabling exploration of complex or abstract concepts in an engaging way; these tools require learners to
+        interact with 3D models, environments, and simulations, fostering curiosity, spatial awareness, and deeper
+        conceptual understanding.
+      </div>
+      <div class="term">
+        • Cloud Computing: the delivery of computing services—such as storage, applications, and processing power—over
+        the internet for the purpose of (a) enabling flexible, scalable, and on-demand access to educational resources
+        and (b) supporting collaboration and data management without the need for physical infrastructure; it requires
+        users to work in online environments, enhancing digital collaboration, accessibility, and technological
+        efficiency in learning and administration.
+      </div>
+      <div class="definition">
+        • Data Analytics Platforms: digital systems used to collect, process, and analyze large volumes of educational
+        data for the purpose of (a) gaining insights into student performance, learning patterns, and institutional
+        effectiveness and (b) supporting data-driven decision-making in education; these platforms require educators and
+        administrators to interpret visualized data and trends, enhancing strategic planning, personalized instruction,
+        and overall academic outcomes.
+      </div>
+      <div class="term">
+        • Other Technologies: a broad category encompassing various digital tools such as mobile apps, AI chatbots, IoT
+        devices, and assistive technologies for the purpose of (a) supporting diverse educational needs and (b)
+        enhancing accessibility, engagement, and efficiency in learning and administration; these technologies require
+        users to interact with innovative solutions tailored to specific educational contexts, promoting inclusivity,
+        creativity, and continuous learning.
+      </div>
+      <div class="details-expansion-conclude">
+        <p>// End of Examples</p>
+        <div class="close-boxes">
+          <button type="button">Examples</button>
+          <button type="button" id="close-btn-examples" onclick="toggleExpansionExamples()">
+            close
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="data-title-last-final">
+      <p>// End of Data Sheet</p>
+    </div>
+  </div>
+  <div class="validation-btns">
+    <button type="submit" onclick="validateDataSheet()">
+      Validate Data Sheet
+    </button>
+    <button type="button">Top of Data Sheet</button>
+  </div>
+  </form>
+  </div>
+  <footer>
+    <div class="footer-container">
+      <div class="logo">
+        <a href="www.vibeservices.org"><img src="assets/images/IAAHE-Logo-2.png" alt="Logo" height="60px" /></a>
+      </div>
+      <div class="footer-text">
+        <div class="first-line-footer-text">
+          <p>Fostering Excellence</p>
+          <p>in Higher Education Worldwide</p>
+        </div>
+        <p>© 2025 | All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
